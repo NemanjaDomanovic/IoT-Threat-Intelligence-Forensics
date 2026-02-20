@@ -1,0 +1,23 @@
+=== DIGITAL FORENSIC EXAMINATION REPORT ===
+Investigator: Nemanja
+Case: Mirai Botnet Analysis
+==========================================
+
+1. EVIDENCE INTEGRITY (SHA-256)
+File: data/heartbeat_analysis.csv
+Hash: f29540bb1e72baae5dfe8f4360df23c4ec71930a746cc233feaa5a922530bb0b
+Records: 5265
+
+File: data/ddos_traffic.csv
+Hash: 4dbe628d5037f31f7905fa6ecdfd989f9f7810089e3da1830c56a6ee4c41b4c4
+Records: 10000
+
+2. ALGORITHMIC FINDINGS (DSWVA)
+Mean Heartbeat Interval: 16.4031 seconds
+Global Jitter: 1137.50470662
+Machine Precision Score: 0.0000000000
+
+3. CONCLUSION
+The Dynamic Sliding-Window Variance Analysis confirms automated behavior.
+The near-zero variance in the rolling window mathematically proves
+the existence of a deterministic C2 loop.
