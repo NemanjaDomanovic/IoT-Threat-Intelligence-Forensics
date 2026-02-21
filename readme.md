@@ -1,4 +1,4 @@
-# IoT Botnet Forensics: Dynamic Sliding-Window Variance Analysis (DSWVA)
+IoT Botnet Forensics: Dynamic Sliding-Window Variance Analysis (DSWVA)
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square)
